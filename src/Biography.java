@@ -1,2 +1,2 @@
-public class Biography {
+public class Biography extends Nonfiction {
 }
