@@ -1,2 +1,2 @@
-public class Children {
+public class Children extends Fiction {
 }
