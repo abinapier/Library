@@ -1,5 +1,2 @@
-public class Textbook extends Nonfiction{
-    public Textbook(){
-
-    }
+public class Textbook {
 }

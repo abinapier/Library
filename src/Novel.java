@@ -1,2 +1,2 @@
-public class Novel extends Fiction {
+public class Novel {
 }
