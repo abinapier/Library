@@ -30,7 +30,7 @@ public class Library {
                 int level = input.nextInt();
                 book.setTitle(title);
                 book.setAuthor(author);
-                book.setYear(year);
+                book.setPublishingYear(year);
                 book.setAgeGroup(ageGroup);
                 book.setReadingLevel(level);
                 books.add(book);
@@ -44,7 +44,7 @@ public class Library {
                 int pageNum = input.nextInt();
                 book.setTitle(title);
                 book.setAuthor(author);
-                book.setYear(year);
+                book.setPublishingYear(year);
                 book.setAgeGroup(ageGroup);
                 book.setPageNumber(pageNum);
                 books.add(book);
@@ -58,7 +58,7 @@ public class Library {
                 String gender = input.nextLine();
                 book.setTitle(title);
                 book.setAuthor(author);
-                book.setYear(year);
+                book.setPublishingYear(year);
                 book.setTimePeriod(timePeriod);
                 book.setGender(gender);
                 books.add(book);
@@ -72,7 +72,7 @@ public class Library {
                 String topic = input.nextLine();
                 book.setTitle(title);
                 book.setAuthor(author);
-                book.setYear(year);
+                book.setPublishingYear(year);
                 book.setTimePeriod(timePeriod);
                 book.setTopic(topic);
                 books.add(book);
