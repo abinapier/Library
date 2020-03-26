@@ -2,12 +2,12 @@ public class Book {
     private String author;
     private String title;
     private int publishingYear;
-
     public Book(){
         author = "unknown";
         title = "unknown";
         publishingYear = 0;
     }
+
 
     public Book(String author, String title, int year){
         this.author = author;
