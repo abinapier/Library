@@ -15,8 +15,9 @@ public class Children extends Fiction {
     public int getReadingLevel(){
         return readingLevel;
     }
+    @Override
     public String toString(){
-        return String.valueOf(readingLevel);
+        return readingLevel + super.toString();
     }
 
 }

@@ -15,7 +15,8 @@ public class Fiction extends Book {
     public String getAgeGroup(){
         return ageGroup;
     }
+    @Override
     public String toString(){
-        return ageGroup;
+        return ageGroup + super.toString();
     }
 }
