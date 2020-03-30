@@ -15,9 +15,11 @@ public class Novel extends Fiction {
     public int getPageNumber(){
         return pageNumber;
     }
-    @Override
+
     public String toString(){
-        return pageNumber + super.toString();
+        String returnStr = super.toString();
+        returnStr+= "\n# Pages: "+pageNumber;
+        return returnStr;
     }
 
 }

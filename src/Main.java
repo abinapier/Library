@@ -12,11 +12,12 @@ public class Main {
             System.out.println("Please enter a number from the menu below");
             System.out.println("1: Add a new book");
             System.out.println("2: Remove a book");
-            System.out.println("3: Find books by author");
-            System.out.println("4: Find books by title");
-            System.out.println("5: Find books by genre");
-            System.out.println("6: Load books from file");
-            System.out.println("7: Quit");
+            System.out.println("3: Print books in library");
+            System.out.println("4: Find books by author");
+            System.out.println("5: Find books by title");
+            System.out.println("6: Find books by genre");
+            System.out.println("7: Load books from file");
+            System.out.println("8: Quit");
             int choice = input.nextInt();
             switch (choice) {
                 case (1):
@@ -26,17 +27,20 @@ public class Main {
                     myLibrary.removeBook();
                     break;
                 case (3):
-                    System.out.println(myLibrary.getByAuthor());
+                    System.out.println(myLibrary.printBooks());
                     break;
                 case (4):
-                    System.out.println(myLibrary.getByTitle());
+                    System.out.println(myLibrary.getByAuthor());
                     break;
                 case (5):
-                    System.out.println(myLibrary.getByGenre());
+                    System.out.println(myLibrary.getByTitle());
                     break;
                 case (6):
-                    myLibrary.readInFile();
+                    System.out.println(myLibrary.getByGenre());
+                    break;
                 case (7):
+                    myLibrary.readInFile();
+                case (8):
                     active = false;
                     break;
             }
